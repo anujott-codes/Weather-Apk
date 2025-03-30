@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="please enter the location" spellcheck="false">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="section">
+            <div class="weather">
+                <div class="weather_condn"><img src="clear.png" alt=""></div>
+                <div class="temp">31°C</div>
+                <div class="city">Delhi</div>
+            </div>
+            <div class="condn">
+                <div class="container-1">
+                    <div class="humidity-img"><img src="humidity.png" alt=""></div>
+                    <div class="humidity">
+                        <p class="humid">31%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="container-2">
+                    <div class="wind-img"><img src="wind.png" alt=""></div>
+                    <div class="wind">
+                        <p class="speed">31 km/hr</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
